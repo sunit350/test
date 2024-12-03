@@ -1,0 +1,11 @@
+name : Hello World
+
+on : [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-lates
+
+    steps:
+      - name: Say hello
+        run: echo "Hello, World!"
